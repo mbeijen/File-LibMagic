@@ -1,5 +1,5 @@
-File/LibMagic version 0.91
-==========================
+File/LibMagic
+=============
 
 DESCRIPTION
 
@@ -22,6 +22,9 @@ This module requires these other modules and libraries:
   o) file-4.x or file-5x and the associated libmagic 
         (ftp://ftp.astron.com/pub/file/)
   o) on some systems zlib is required.
+
+  o) COMMON PROBLEM: magic.h is not correctly placed (e.g. in /usr/include/
+     or /usr/local/include/)
 
 RELATED MODULES
 
@@ -46,7 +49,7 @@ COPYRIGHT AND LICENCE
 
 Author: Andreas Fitzner <fitzner@informatik.hu-berlin.de>, 
         Michael Hendricks <michael@ndrix.org>
-Feb 2009
+May 2009
 
 This library is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
