@@ -1,3 +1,4 @@
+inc/Devel/CheckLib.pm
 Changes
 const-c.inc
 const-xs.inc
